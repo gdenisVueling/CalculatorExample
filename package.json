@@ -3,12 +3,23 @@
   "version": "1.0.0",
   "description": "Just a basic example of a calculator",
   "main": "index.js",
+  "bin": {
+    "calculator": "./dist/index.js"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --outDir ./dist"
   },
   "author": "Gabriel Denis Llanes",
   "license": "ISC",
   "dependencies": {
-    "@gdenisvueling/basic-calculator": "^1.0.2"
+    "@gdenisvueling/basic-calculator": "^1.0.5",
+    "commander": "^10.0.0",
+    "figlet": "^1.5.2"
+  },
+  "devDependencies": {
+    "@types/figlet": "^1.5.5",
+    "@types/node": "^18.15.3",
+    "typescript": "^4.9.5"
   }
 }
