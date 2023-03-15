@@ -14,6 +14,6 @@ For uninstalling, just use `npm uninstall -g calculatorexample`
 
 Now just use **`calculator`** to get the cli help:
 
-    ![Calculator cli](./assets/images/calculator-example.png)
+![CLI Help](assets/images/calculator-example.png)
 
 An try `calculator -s 3,4` 
