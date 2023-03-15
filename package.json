@@ -1,0 +1,14 @@
+{
+  "name": "calculatorexample",
+  "version": "1.0.0",
+  "description": "Just a basic example of a calculator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gabriel Denis Llanes",
+  "license": "ISC",
+  "dependencies": {
+    "@gdenisvueling/basic-calculator": "^1.0.2"
+  }
+}
